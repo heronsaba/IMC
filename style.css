@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root{
+    --primary-color: #0a185a;
+    --secondary-color: crimson; 
+}
+input{
+    width: 99%;
+    height: 35px;
+    margin: 10px 0 10px 0;
+}
+button{
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 35px;
+    margin: 10px 0;
+    color: white;
+
+}
+button:hover{
+    cursor: pointer;
+}
+h2{
+    padding: 20px 0 20px 0;
+}
+body{
+    background-color: var(--primary-color);
+}
+table{
+    width: 90%;
+    font-size: 20px;
+}
+h1{
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+table th{
+    text-align: left;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+table tr{
+    margin-bottom: 10px;
+}
+.container{
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+}
+.paragrafo-resultado{
+    background-color: rgb(18, 139, 99);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.resultado-erro{
+    background-color: rgb(228, 153, 153);
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}
